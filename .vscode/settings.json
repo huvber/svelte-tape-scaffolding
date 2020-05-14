@@ -1,6 +1,0 @@
-{
-  "prettier.prettierPath": ".vscode/pnpify/prettier/index.js",
-  "editor.formatOnSave": true,
-  "editor.fontSize": 11,
-  "editor.tabSize": 2
-}
