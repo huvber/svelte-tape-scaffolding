@@ -1,0 +1,33 @@
+{
+  "name": "svelte-tape",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "rollup -c rollup.config.test.js --silent",
+    "test:run": "tape -r ./test-utils/setup ./dist/test.js| tap-spec",
+    "dev": "rollup -c -w",
+    "start": "sirv public"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^11.1.0",
+    "@rollup/plugin-json": "^4.0.3",
+    "@rollup/plugin-multi-entry": "^3.0.1",
+    "@rollup/plugin-node-resolve": "^7.0.0",
+    "@testing-library/svelte": "^3.0.0",
+    "@yarnpkg/pnpify": "^2.0.0-rc.22",
+    "browser-env": "^3.3.0",
+    "prettier": "^2.0.5",
+    "rollup": "^2.10.0",
+    "rollup-plugin-command": "^1.1.2",
+    "rollup-plugin-livereload": "^1.0.0",
+    "rollup-plugin-node-builtins": "^2.1.2",
+    "rollup-plugin-svelte": "^5.0.3",
+    "rollup-plugin-terser": "^5.1.2",
+    "svelte": "^3.0.0",
+    "tap-spec": "^5.0.0",
+    "tape": "^5.0.0"
+  },
+  "dependencies": {
+    "sirv-cli": "^0.4.4"
+  }
+}
