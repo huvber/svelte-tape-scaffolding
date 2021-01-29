@@ -103,7 +103,6 @@ dist
 
 # TernJS port file
 .tern-port
-public
 # new yarn
 .yarn/cache
 .yarn/unplugged
@@ -111,3 +110,4 @@ public
 .yarn/build-state.yml
 .pnp.*
 .yarn/install-state.gz
+public/build
